@@ -18,6 +18,10 @@ public class Provider: ProviderProtocol {
     
     private var services = [String: Builder]()
     
+    public init() {
+        
+    }
+    
     /// Registers factory method with a type
     public func register<T>(type: T.Type, builder: @escaping Builder) {
         services["\(type)"] = builder
