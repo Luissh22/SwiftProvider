@@ -1,3 +1,3 @@
 # SwiftProvider
 
-A description of this package.
+A lightweight dependency injection container.
